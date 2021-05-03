@@ -375,8 +375,8 @@ a {
   max-width: 1171px;
   margin: 0 auto;
   min-height: 890px;
-  padding-left: 60px;
-  padding-right: 60px;
+  /* padding-left: 60px;
+  padding-right: 60px; */
 }
 
 .news__item {
