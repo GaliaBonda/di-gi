@@ -62,7 +62,7 @@ a {
   font-size: 96px;
   line-height: 96px;
   text-transform: uppercase;
-  max-width: 513px;
+  max-width: 613px;
   margin: 0 auto;
   text-align: center;
   padding: 107px 0 17px;
@@ -81,7 +81,7 @@ a {
   text-align: center;
   color: var(--secondary);
   padding-bottom: 28px;
-  padding-right: 70px;
+  /* padding-right: 70px; */
 }
 
 .button {
@@ -487,6 +487,10 @@ a {
   line-height: 28px;
   color: var(--font-link-default);
   padding-bottom: 80px;
+}
+
+.testimonials__carousel {
+  padding-bottom: 50px;
 }
 
 .testimonials__pagination {
