@@ -1,7 +1,7 @@
 $(document).ready(function() {
  
-    $("#owl-example").owlCarousel({
-        autoPlay: 3000, //Set AutoPlay to 3 seconds
+    $("#intro-carousel").owlCarousel({
+        autoPlay: 4000, //Set AutoPlay to 3 seconds
  
       items : 1,
       itemsDesktop : [1199,1],
@@ -12,8 +12,8 @@ $(document).ready(function() {
 
 $(document).ready(function() {
  
-    $("#owl-example2").owlCarousel({
-        autoPlay: 3000, //Set AutoPlay to 3 seconds
+    $("#testimonials-carousel").owlCarousel({
+        autoPlay: 5000, //Set AutoPlay to 3 seconds
  
       items : 1,
       itemsDesktop : [1199,1],
