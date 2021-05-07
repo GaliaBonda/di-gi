@@ -64,6 +64,10 @@
     padding-left: 40px;
     padding-right: 40px;
   }
+
+  .services__item {
+    border: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
