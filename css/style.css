@@ -18,7 +18,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   color: var(--font-default);
@@ -79,7 +79,7 @@ a {
   font-family: "Roboto Condensed", sans-serif;
   font-family: Roboto Condensed;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 24px;
   line-height: 26px;
   margin: 0 auto;
@@ -93,7 +93,7 @@ a {
   height: 50px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 18px;
   text-transform: uppercase;
@@ -196,7 +196,7 @@ a {
 .title {
   font-family: "Roboto Condensed", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 48px;
   line-height: 56px;
   text-transform: capitalize;
@@ -214,7 +214,7 @@ a {
 
 .services__subtitle {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 24px;
   line-height: 26px;
   padding-bottom: 30px;
@@ -272,7 +272,7 @@ a {
 .services__hidden-link {
   font-family: "Roboto Condensed", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
@@ -326,7 +326,7 @@ a {
 .projects__item-text {
   font-family: "Roboto Condensed", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   color: var(--accent);
@@ -440,7 +440,7 @@ a {
 .news__text {
   font-family: "Roboto Condensed", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   color: var(--font-link-default);
@@ -478,7 +478,7 @@ a {
 .testimonials__text {
   font-family: "Roboto Condensed", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   color: var(--font-link-default);
@@ -495,7 +495,7 @@ a {
 .testimonials__author {
   font-family: "Roboto Condensed", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   color: var(--font-link-default);
@@ -530,6 +530,7 @@ a {
   padding-bottom: 80px;
   font-size: 24px;
   line-height: 32px;
+  font-weight: 400;
   color: var(--secondary);
   max-width: 60%;
 }
@@ -577,7 +578,7 @@ a {
   color: var(--secondary-functional);
   font-family: "Roboto Condensed", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 19px;
   padding-bottom: 22px;
@@ -586,7 +587,7 @@ a {
 .footer__link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
   line-height: 20px;
   color: var(--secondary);
@@ -597,7 +598,7 @@ a {
 .mail {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
   line-height: 20px;
   color: var(--secondary);
