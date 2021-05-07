@@ -12,6 +12,7 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  transition-duration: 800ms;
 }
 
 body {
@@ -236,7 +237,6 @@ a {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 50% 50%;
   max-height: max-content;
-  /* padding-bottom: 45px; */
 }
 
 .services__item {
@@ -246,7 +246,6 @@ a {
   border-bottom: 1px solid var(--secondary-functional);
   text-align: center;
   height: 255px;
-  /* max-height: 100%; */
 }
 
 .services__hidden-content {
@@ -387,12 +386,12 @@ a {
 }
 
 .news__items {
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 60px;
+  padding-right: 60px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 210px 30px 101px 30px 59px 30px 137px 30px;
-  max-width: 1171px;
+  /* max-width: 1171px; */
   margin: 0 auto;
   min-height: 890px;
 }
