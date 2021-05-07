@@ -44,7 +44,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 17px 150px 17px 61px; */
   padding: 17px 10% 17px 5%;
 }
 
@@ -53,6 +52,11 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
+}
+
+.intro__inner {
+  padding-right: 70px;
+  padding-left: 70px;
 }
 
 .intro__title {
@@ -81,7 +85,6 @@ a {
   text-align: center;
   color: var(--secondary);
   padding-bottom: 28px;
-  /* padding-right: 70px; */
 }
 
 .button {
@@ -198,6 +201,11 @@ a {
   text-transform: capitalize;
 }
 
+.services__inner {
+  padding-top: 20px;
+  padding-bottom: 45px;
+}
+
 .services__title {
   color: var(--accent);
   padding-bottom: 64px;
@@ -227,7 +235,8 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 50% 50%;
-  padding-bottom: 15px;
+  max-height: max-content;
+  /* padding-bottom: 45px; */
 }
 
 .services__item {
@@ -236,8 +245,8 @@ a {
   border-left: 1px solid var(--secondary-functional);
   border-bottom: 1px solid var(--secondary-functional);
   text-align: center;
-  max-height: 255px;
-  /* height: 100%; */
+  height: 255px;
+  /* max-height: 100%; */
 }
 
 .services__hidden-content {
@@ -246,7 +255,7 @@ a {
 
 .services__item--hover:hover {
   outline: 4px solid var(--accent);
-  padding: 8px 0.05% 25px 0.05%;
+  padding: 5px 0.05% 5px 0.05%;
 }
 
 .services__item--hover:hover .services__hidden-content {
@@ -348,6 +357,7 @@ a {
 .team__img {
   width: 35%;
   height: 100%;
+  flex-shrink: 0;
 }
 
 .team__text {
@@ -377,6 +387,8 @@ a {
 }
 
 .news__items {
+  padding-left: 120px;
+  padding-right: 120px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 210px 30px 101px 30px 59px 30px 137px 30px;

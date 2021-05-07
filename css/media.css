@@ -12,6 +12,8 @@
   }
 
   .news__items {
+    padding-left: 60px;
+    padding-right: 60px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 341px 30px 30px 40px 30px 67px 30px 113px 30px;
     min-height: 1038px;
@@ -59,9 +61,30 @@
     padding-left: 46px;
     padding-right: 0px;
   }
+
+  .news__items {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
+  .intro__title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .intro__nav-prev,
+  .intro__nav-next {
+    height: 56px;
+    width: 56px;
+  }
+
+  .intro__inner {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
   .promo__inner {
     padding-left: 46px;
     padding-right: 42px;
@@ -97,6 +120,8 @@
   }
 
   .news__items {
+    padding-left: 25px;
+    padding-right: 25px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 341px 31px 58px 30px 122px 30px 167px 30px 34px 30px 134px 30px 177px;
     min-height: 1525px;
@@ -165,6 +190,11 @@
     line-height: 60px;
   }
 
+  .intro__inner {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .promo__inner {
     flex-wrap: wrap;
     justify-content: center;
@@ -181,8 +211,8 @@
   }
 
   .news__items {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .testimonials__text {
@@ -194,6 +224,11 @@
 @media only screen and (max-width: 480px) {
   .intro__nav {
     display: none;
+  }
+
+  .intro__title {
+    font-size: 28px;
+    line-height: 28px;
   }
 
   .services__items {
